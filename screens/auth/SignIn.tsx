@@ -1,5 +1,5 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import { View, Text } from 'react-native';
+import React from 'react';
 
 const SignIn = () => {
   return (
@@ -7,11 +7,13 @@ const SignIn = () => {
       style={{
         flex: 1,
         justifyContent: 'center',
-        alignItems: 'center'
-      }}>
+        alignItems: 'center',
+      }}
+    >
       <Text>SignIn</Text>
+      <Text>SignIn with Google</Text>
     </View>
-  )
-}
+  );
+};
 
-export default SignIn
+export default SignIn;
