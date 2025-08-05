@@ -21,8 +21,8 @@ export default function RootNavigator() {
         ) : (
           <Stack.Screen name="Auth" component={AuthStack} />
           )} */}
-      <Stack.Screen name="Auth" component={AuthStack} />
       <Stack.Screen name="Tabs" component={TabNavigator} />
+      <Stack.Screen name="Auth" component={AuthStack} />
     </Stack.Navigator>
   );
 }
